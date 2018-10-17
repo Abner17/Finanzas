@@ -1,0 +1,10 @@
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\bin\Debug\contabilidad.exe.config
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\bin\Debug\contabilidad.exe
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\bin\Debug\contabilidad.pdb
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.Form1.resources
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.Properties.Resources.resources
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.exe
+C:\Users\diego\Desktop\contabilidad\contabilidad\contabilidad\obj\Debug\contabilidad.pdb

@@ -1,0 +1,100 @@
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe.config
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Form1.resources
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Logo.resources
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.cache
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.dll
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaLogica.dll
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaDatos.dll
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.pdb
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaLogica.pdb
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\bin\Debug\CapaDatos.pdb
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.CopyComplete
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Cuentas.resources
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Polizas.resources
+C:\Users\sebas\Desktop\finanzas\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_BalancesContables.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe.config
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\CapaLogica.dll
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\CapaDatos.dll
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\CapaLogica.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\bin\Debug\CapaDatos.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csprojResolveAssemblyReference.cache
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Form1.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_BalancesContables.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Cuentas.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Logo.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Polizas.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijos.resources
+F:\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe.config
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+F:\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+F:\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+F:\Contabilidad\Contabilidad\bin\Debug\CapaLogica.dll
+F:\Contabilidad\Contabilidad\bin\Debug\CapaDatos.dll
+F:\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.pdb
+F:\Contabilidad\Contabilidad\bin\Debug\CapaLogica.pdb
+F:\Contabilidad\Contabilidad\bin\Debug\CapaDatos.pdb
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csprojResolveAssemblyReference.cache
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Form1.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijos.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_BalancesContables.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Cuentas.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Logo.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Polizas.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe.config
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\CapaLogica.dll
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\CapaDatos.dll
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.pdb
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\CapaLogica.pdb
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\bin\Debug\CapaDatos.pdb
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csprojResolveAssemblyReference.cache
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Form1.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijos.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_BalancesContables.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Cuentas.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Logo.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Polizas.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+C:\Users\ALEX-PC\Documents\Analisis2\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe.config
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\CapaLogica.dll
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\CapaDatos.dll
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\CapaDiseno.pdb
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\CapaLogica.pdb
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\bin\Debug\CapaDatos.pdb
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csprojResolveAssemblyReference.cache
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Form1.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijos.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_BalancesContables.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Cuentas.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Logo.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_Polizas.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+F:\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijosGrid.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_ActivosFijosGrid.resources
+C:\Users\ALEX-PC\Desktop\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Frm_PolizaActivos.resources

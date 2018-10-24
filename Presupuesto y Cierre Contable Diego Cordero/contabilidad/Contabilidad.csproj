@@ -55,6 +55,7 @@
     <Compile Include="CierreContable.Designer.cs">
       <DependentUpon>CierreContable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

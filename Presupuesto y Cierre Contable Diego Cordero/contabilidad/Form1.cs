@@ -19,6 +19,8 @@ namespace Contabilidad
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Conexion nueva = new Conexion();
+            nueva.ObtenerConexion();
                 Logo ventana = new Logo();
                 ventana.MdiParent = this;
                 ventana.Show();

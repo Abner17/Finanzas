@@ -53,7 +53,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.cuentas = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.navegador1 = new CapaDiseno.Navegador();
             this.tablaPresupuesto = new System.Windows.Forms.DataGridView();
             this.asdf1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -296,9 +295,9 @@
             // departamento
             // 
             this.departamento.FormattingEnabled = true;
-            this.departamento.Location = new System.Drawing.Point(23, 32);
+            this.departamento.Location = new System.Drawing.Point(9, 33);
             this.departamento.Name = "departamento";
-            this.departamento.Size = new System.Drawing.Size(120, 82);
+            this.departamento.Size = new System.Drawing.Size(148, 82);
             this.departamento.TabIndex = 2;
             this.departamento.SelectedIndexChanged += new System.EventHandler(this.departamento_SelectedIndexChanged);
             // 
@@ -325,9 +324,9 @@
             // cuentas
             // 
             this.cuentas.FormattingEnabled = true;
-            this.cuentas.Location = new System.Drawing.Point(24, 33);
+            this.cuentas.Location = new System.Drawing.Point(10, 34);
             this.cuentas.Name = "cuentas";
-            this.cuentas.Size = new System.Drawing.Size(120, 82);
+            this.cuentas.Size = new System.Drawing.Size(148, 82);
             this.cuentas.TabIndex = 1;
             // 
             // label2
@@ -339,17 +338,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Seleccionar Cuentas:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // navegador1
-            // 
-            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.navegador1.DataGr = this.tablaPresupuesto;
-            this.navegador1.Forma = this;
-            this.navegador1.Location = new System.Drawing.Point(48, 47);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Procedimiento = null;
-            this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 4;
             // 
             // tablaPresupuesto
             // 
@@ -474,7 +462,7 @@
             this.headerDescripcion.Controls.Add(this.label10);
             this.headerDescripcion.Controls.Add(this.label11);
             this.headerDescripcion.Controls.Add(this.label12);
-            this.headerDescripcion.Location = new System.Drawing.Point(6, 128);
+            this.headerDescripcion.Location = new System.Drawing.Point(6, 59);
             this.headerDescripcion.Name = "headerDescripcion";
             this.headerDescripcion.Size = new System.Drawing.Size(921, 86);
             this.headerDescripcion.TabIndex = 8;
@@ -608,7 +596,6 @@
             this.Controls.Add(this.headerDescripcion);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.tablaPresupuesto);
-            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Presupuestos";
@@ -657,7 +644,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbMetodoPrellenado;
         private System.Windows.Forms.Label label4;
-        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.DataGridView tablaPresupuesto;
         private System.Windows.Forms.DataGridViewTextBoxColumn asdf1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;

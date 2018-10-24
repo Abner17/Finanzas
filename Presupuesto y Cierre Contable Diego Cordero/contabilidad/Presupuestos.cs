@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Odbc;
 
 namespace Contabilidad
 {
@@ -57,10 +58,42 @@ namespace Contabilidad
 
 
 
+            string sql = "Select id_cuenta, Nombre_Cuenta from catalogo_cuentas";
+            int contador = 1;
+            Conexion nuevo = new Conexion();
+            OdbcCommand cmd = nuevo.ObtenerConexion().CreateCommand();
+            cmd.CommandText = sql;
+            cmd.ExecuteNonQuery();
+
+            OdbcDataReader almacena = cmd.ExecuteReader();
+            cuentas.Items.Clear();
+            cuentas.Items.Add(" Seleccionar Todo");
+            while (almacena.Read())
+            {    contador++;
+                cuentas.Refresh();
+                cuentas.Items.Add( almacena.GetString(0) +" - "+ almacena.GetString(1));
+            }
+
+            sql = "Select id_departamento, nombre_departamento from departamentos";
+            contador = 1;
+           // Conexion nuevo = new Conexion();
+            OdbcCommand cmdDepartamentos = nuevo.ObtenerConexion().CreateCommand();
+            cmdDepartamentos.CommandText = sql;
+            cmdDepartamentos.ExecuteNonQuery();
+
+            almacena = cmdDepartamentos.ExecuteReader();
+            departamento.Items.Clear();
+            departamento.Items.Add(" Seleccionar Todo");
+            while (almacena.Read())
+            {
+                contador++;
+                departamento.Refresh();
+                departamento.Items.Add(almacena.GetString(0) + " - " + almacena.GetString(1));
+            }
 
 
 
-
+            
 
 
 
@@ -94,6 +127,41 @@ namespace Contabilidad
             tablaPresupuesto.Visible = true;
             headerDescripcion.Visible = true;
 
+            try
+            {
+                string sql = "Select id_cuenta, Nombre_Cuenta from catalogo_cuentas";
+
+                Conexion nuevo = new Conexion();
+                OdbcCommand cmdTabla = nuevo.ObtenerConexion().CreateCommand();
+                cmdTabla.CommandText = sql;
+                cmdTabla.ExecuteNonQuery();
+
+                OdbcDataReader almacenaTab = cmdTabla.ExecuteReader();
+                //    cuentas.Items.Clear();
+                //     cuentas.Items.Add(" Seleccionar Todo");
+
+
+
+                while (almacenaTab.Read() == true)
+                {
+                    DataGridViewRow filas = new DataGridViewRow();
+                    filas.CreateCells(tablaPresupuesto);
+
+                    filas.Cells[0].Value = almacenaTab.GetString(0);
+                    filas.Cells[1].Value = almacenaTab.GetString(1);
+
+
+
+
+                    tablaPresupuesto.Rows.Add(filas);
+                }
+                almacenaTab.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -106,14 +174,29 @@ namespace Contabilidad
 
         private void headerDescripcion_Paint(object sender, PaintEventArgs e)
         {
-
+            string MyString;
+          
             int indicecuenta = cuentas.SelectedIndex;
             int indicedept = departamento.SelectedIndex;
-            txtEjercicioPresupuesto.Text=ejercicioPresupuesto.Text;
-            txtSeleccionarCuentas.Text = cuentas.Items[indicecuenta].ToString();
-            txtDepartamento.Text = departamento.Items[indicedept].ToString();
-            txtPorcentajeIncremento.Text = textBox1.Text;
-            txtMetodoPrellenado.Text = cbMetodoPrellenado.Text;
+
+            
+
+            txtEjercicioPresupuesto.Text = ejercicioPresupuesto.Text;
+
+            MyString = cuentas.Items[indicecuenta].ToString();
+            txtSeleccionarCuentas.Text = MyString.Remove(0, 4);
+
+
+
+            MyString = departamento.Items[indicedept].ToString();
+            txtDepartamento.Text = MyString.Remove(0, 4);
+
+
+
+            MyString = cbMetodoPrellenado.Text;
+            txtMetodoPrellenado.Text = MyString.Remove(0,2);
+
+            txtPorcentajeIncremento.Text = textBox1.Text + " %";
 
 
 

@@ -33,9 +33,7 @@
             this.Lbl_Modulo = new System.Windows.Forms.Label();
             this.Btn_Logo = new System.Windows.Forms.Button();
             this.lbl_Moneda = new System.Windows.Forms.Label();
-            this.navegador1 = new CapaDiseno.Navegador();
             this.gpb_moneda = new System.Windows.Forms.GroupBox();
-            this.cbo_tipo = new System.Windows.Forms.ComboBox();
             this.txt_abreviatura = new System.Windows.Forms.TextBox();
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_codigo = new System.Windows.Forms.TextBox();
@@ -43,6 +41,8 @@
             this.lbl_abreviatura = new System.Windows.Forms.Label();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.lbl_codigo = new System.Windows.Forms.Label();
+            this.navegador1 = new CapaDiseno.Navegador();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.gpb_moneda.SuspendLayout();
             this.SuspendLayout();
@@ -93,19 +93,9 @@
             this.lbl_Moneda.TabIndex = 10;
             this.lbl_Moneda.Text = "Moneda";
             // 
-            // navegador1
-            // 
-            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.navegador1.Forma = this;
-            this.navegador1.Location = new System.Drawing.Point(36, 220);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Procedimiento = null;
-            this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 11;
-            // 
             // gpb_moneda
             // 
-            this.gpb_moneda.Controls.Add(this.cbo_tipo);
+            this.gpb_moneda.Controls.Add(this.textBox1);
             this.gpb_moneda.Controls.Add(this.txt_abreviatura);
             this.gpb_moneda.Controls.Add(this.txt_nombre);
             this.gpb_moneda.Controls.Add(this.txt_codigo);
@@ -120,14 +110,6 @@
             this.gpb_moneda.TabIndex = 13;
             this.gpb_moneda.TabStop = false;
             this.gpb_moneda.Text = "Datos";
-            // 
-            // cbo_tipo
-            // 
-            this.cbo_tipo.FormattingEnabled = true;
-            this.cbo_tipo.Location = new System.Drawing.Point(119, 124);
-            this.cbo_tipo.Name = "cbo_tipo";
-            this.cbo_tipo.Size = new System.Drawing.Size(95, 21);
-            this.cbo_tipo.TabIndex = 14;
             // 
             // txt_abreviatura
             // 
@@ -186,13 +168,31 @@
             this.lbl_codigo.TabIndex = 0;
             this.lbl_codigo.Text = "Codigo";
             // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.Forma = this;
+            this.navegador1.GridEditar = null;
+            this.navegador1.Location = new System.Drawing.Point(30, 203);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Procedimiento = null;
+            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.TabIndex = 14;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(119, 121);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(95, 20);
+            this.textBox1.TabIndex = 7;
+            // 
             // Frm_M_Moneda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
-            this.Controls.Add(this.gpb_moneda);
             this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.gpb_moneda);
             this.Controls.Add(this.lbl_Moneda);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -214,9 +214,7 @@
         private System.Windows.Forms.Button Btn_Logo;
         private System.Windows.Forms.Label Lbl_Modulo;
         private System.Windows.Forms.Label lbl_Moneda;
-        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.GroupBox gpb_moneda;
-        private System.Windows.Forms.ComboBox cbo_tipo;
         private System.Windows.Forms.TextBox txt_abreviatura;
         private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.TextBox txt_codigo;
@@ -224,5 +222,7 @@
         private System.Windows.Forms.Label lbl_abreviatura;
         private System.Windows.Forms.Label lbl_nombre;
         private System.Windows.Forms.Label lbl_codigo;
+        private CapaDiseno.Navegador navegador1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -33,12 +33,12 @@
             this.Lbl_Modulo = new System.Windows.Forms.Label();
             this.Btn_Logo = new System.Windows.Forms.Button();
             this.lbl_ConceptoB = new System.Windows.Forms.Label();
-            this.navegador1 = new CapaDiseno.Navegador();
             this.gpb_Concepto = new System.Windows.Forms.GroupBox();
             this.cbo_tipo = new System.Windows.Forms.ComboBox();
             this.txt_codigo = new System.Windows.Forms.TextBox();
             this.lbl_tipo = new System.Windows.Forms.Label();
             this.lbl_codigo = new System.Windows.Forms.Label();
+            this.navegador1 = new CapaDiseno.Navegador();
             this.pnl_ManBancos.SuspendLayout();
             this.gpb_Concepto.SuspendLayout();
             this.SuspendLayout();
@@ -89,17 +89,6 @@
             this.lbl_ConceptoB.TabIndex = 9;
             this.lbl_ConceptoB.Text = "Concepto Bancario";
             // 
-            // navegador1
-            // 
-            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.navegador1.Forma = this;
-            this.navegador1.GridEditar = null;
-            this.navegador1.Location = new System.Drawing.Point(39, 113);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Procedimiento = null;
-            this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 10;
-            // 
             // gpb_Concepto
             // 
             this.gpb_Concepto.Controls.Add(this.cbo_tipo);
@@ -147,13 +136,24 @@
             this.lbl_codigo.TabIndex = 0;
             this.lbl_codigo.Text = "Codigo";
             // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.Forma = this;
+            this.navegador1.GridEditar = null;
+            this.navegador1.Location = new System.Drawing.Point(31, 161);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Procedimiento = null;
+            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.TabIndex = 13;
+            // 
             // Frm_M_ConceptoBancario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
-            this.Controls.Add(this.gpb_Concepto);
             this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.gpb_Concepto);
             this.Controls.Add(this.lbl_ConceptoB);
             this.Controls.Add(this.pnl_ManBancos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -175,11 +175,11 @@
         private System.Windows.Forms.Button Btn_Logo;
         private System.Windows.Forms.Label Lbl_Modulo;
         private System.Windows.Forms.Label lbl_ConceptoB;
-        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.GroupBox gpb_Concepto;
         private System.Windows.Forms.ComboBox cbo_tipo;
         private System.Windows.Forms.TextBox txt_codigo;
         private System.Windows.Forms.Label lbl_tipo;
         private System.Windows.Forms.Label lbl_codigo;
+        private CapaDiseno.Navegador navegador1;
     }
 }

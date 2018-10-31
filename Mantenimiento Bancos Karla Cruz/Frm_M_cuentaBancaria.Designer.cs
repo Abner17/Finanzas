@@ -33,12 +33,12 @@
             this.Lbl_Modulo = new System.Windows.Forms.Label();
             this.Btn_Logo = new System.Windows.Forms.Button();
             this.lbl_CuentaBancaria = new System.Windows.Forms.Label();
-            this.navegador1 = new CapaDiseno.Navegador();
             this.gpb_CuentaBancaria = new System.Windows.Forms.GroupBox();
             this.txt_nombreBancos = new System.Windows.Forms.TextBox();
             this.txt_numeroCuenta = new System.Windows.Forms.TextBox();
             this.lbl_nombreBan = new System.Windows.Forms.Label();
             this.lbl_numeroC = new System.Windows.Forms.Label();
+            this.navegador1 = new CapaDiseno.Navegador();
             this.pnl_ManBancos.SuspendLayout();
             this.gpb_CuentaBancaria.SuspendLayout();
             this.SuspendLayout();
@@ -90,18 +90,6 @@
             this.lbl_CuentaBancaria.TabIndex = 10;
             this.lbl_CuentaBancaria.Text = "Cuenta Bancaria";
             // 
-            // navegador1
-            // 
-            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.navegador1.Forma = this;
-            this.navegador1.GridEditar = null;
-            this.navegador1.Location = new System.Drawing.Point(39, 202);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Procedimiento = null;
-            this.navegador1.Size = new System.Drawing.Size(856, 60);
-            this.navegador1.TabIndex = 11;
-            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
-            // 
             // gpb_CuentaBancaria
             // 
             this.gpb_CuentaBancaria.Controls.Add(this.txt_nombreBancos);
@@ -148,13 +136,24 @@
             this.lbl_numeroC.TabIndex = 0;
             this.lbl_numeroC.Text = "Numero Cuenta";
             // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.Forma = this;
+            this.navegador1.GridEditar = null;
+            this.navegador1.Location = new System.Drawing.Point(34, 183);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Procedimiento = null;
+            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.TabIndex = 14;
+            // 
             // Frm_M_cuentaBancaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
-            this.Controls.Add(this.gpb_CuentaBancaria);
             this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.gpb_CuentaBancaria);
             this.Controls.Add(this.lbl_CuentaBancaria);
             this.Controls.Add(this.pnl_ManBancos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -176,11 +175,11 @@
         private System.Windows.Forms.Button Btn_Logo;
         private System.Windows.Forms.Label Lbl_Modulo;
         private System.Windows.Forms.Label lbl_CuentaBancaria;
-        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.GroupBox gpb_CuentaBancaria;
         private System.Windows.Forms.TextBox txt_nombreBancos;
         private System.Windows.Forms.TextBox txt_numeroCuenta;
         private System.Windows.Forms.Label lbl_nombreBan;
         private System.Windows.Forms.Label lbl_numeroC;
+        private CapaDiseno.Navegador navegador1;
     }
 }

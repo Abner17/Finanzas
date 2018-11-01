@@ -1,0 +1,14 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaEspecificaConciliacionBancaria.chm
+Contents file=TablaContenidoEspecifico.hhc
+Default topic=Ayuda Especifica.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+
+[FILES]
+Ayuda Especifica.html
+
+[INFOTYPES]
+

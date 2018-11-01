@@ -65,3 +65,6 @@ C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\obj\Debug\Interop.AcroPDF
 C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\obj\Debug\BancosFinalProt.csproj.ResolveComReference.cache
 C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\obj\Debug\BancosFinalProt.Frm_BancosMDI.resources
+C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\obj\Debug\BancosFinalProt.Frm_VisorConciliacionBancaria.resources
+C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\bin\Debug\MySql.Data.dll
+C:\Users\sebas\Desktop\BancosFinalProt\BancosFinalProt\bin\Debug\MySql.Fabric.Plugin.dll

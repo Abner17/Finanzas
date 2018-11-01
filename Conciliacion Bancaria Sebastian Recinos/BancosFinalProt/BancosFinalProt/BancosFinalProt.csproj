@@ -36,6 +36,12 @@
     <Reference Include="CapaDiseno">
       <HintPath>..\..\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Fabric.6.9.12\lib\net45\MySql.Fabric.Plugin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConectarServidor.cs" />
     <Compile Include="Frm_BancosMDI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +68,12 @@
     <Compile Include="Frm_ConciliacionBancaria.Designer.cs">
       <DependentUpon>Frm_ConciliacionBancaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_VisorConciliacionBancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_VisorConciliacionBancaria.Designer.cs">
+      <DependentUpon>Frm_VisorConciliacionBancaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_BancosMDI.resx">
@@ -68,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ConciliacionBancaria.resx">
       <DependentUpon>Frm_ConciliacionBancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_VisorConciliacionBancaria.resx">
+      <DependentUpon>Frm_VisorConciliacionBancaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +94,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

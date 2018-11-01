@@ -20,14 +20,15 @@ namespace BancosFinalProt
 
         private void Frm_ConciliacionBancaria_Load(object sender, EventArgs e)
         {
-            axAcroPDF1.LoadFile("C:/Users/sebas/Desktop/Estado.pdf");
+            Txt_Fecha.Text = DateTime.Now.ToString("d");
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Txt_NumeroConciliacion.Text = "1";
-            Txt_Fecha.Text = DateTime.Now.ToString("d");
-            Lbl_NumeroMovimientos.Text = this.Dgv_CierreContable.Rows.Count.ToString();
+            string direccion = Txt_DireccionEstadoDeCuenta.Text;
+            Frm_VisorConciliacionBancaria visor = new Frm_VisorConciliacionBancaria(direccion);
+            visor.Show();
 
         }
 
@@ -49,6 +50,36 @@ namespace BancosFinalProt
         private void Txt_NumeroConciliacion_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void navegador1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Frm_ConciliacionBancaria_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void Frm_ConciliacionBancaria_KeyDown(object sender, KeyEventArgs e)
+        {
+           
+        }
+
+        private void Frm_ConciliacionBancaria_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "C:/Ayuda/AyudaGeneralConciliacionBancaria.chm");
+        }
+
+        private void Txt_DireccionEstadoDeCuenta_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "C:/Ayuda/AyudaEspecificaConciliacionBancaria.chm");
         }
     }
 }

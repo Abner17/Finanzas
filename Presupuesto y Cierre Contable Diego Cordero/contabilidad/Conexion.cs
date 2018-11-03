@@ -8,12 +8,23 @@ namespace Contabilidad
 {
     public class Conexion
     {
+        OdbcConnection conectar = new OdbcConnection("Dsn=finanzas");
+
         public OdbcConnection ObtenerConexion()
         {
 
-            OdbcConnection conectar = new OdbcConnection("Dsn=finanzas");
             conectar.Open();
             return conectar;
+
+        }
+        public OdbcConnection cerrarConexion()
+        {
+
+
+            conectar.Close();
+            return conectar;
+
+
         }
         public void funcion()
         {

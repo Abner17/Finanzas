@@ -278,8 +278,8 @@
             // estoEsDeDouglasGayToolStripMenuItem
             // 
             this.estoEsDeDouglasGayToolStripMenuItem.Name = "estoEsDeDouglasGayToolStripMenuItem";
-            this.estoEsDeDouglasGayToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
-            this.estoEsDeDouglasGayToolStripMenuItem.Text = "Esto es de douglas gay";
+            this.estoEsDeDouglasGayToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.estoEsDeDouglasGayToolStripMenuItem.Text = "Esto es de douglas";
             // 
             // reportesToolStripMenuItem
             // 
@@ -309,7 +309,7 @@
             // aquiVaAbsaToolStripMenuItem
             // 
             this.aquiVaAbsaToolStripMenuItem.Name = "aquiVaAbsaToolStripMenuItem";
-            this.aquiVaAbsaToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.aquiVaAbsaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aquiVaAbsaToolStripMenuItem.Text = "Aqui va absa";
             // 
             // mantenimientosToolStripMenuItem

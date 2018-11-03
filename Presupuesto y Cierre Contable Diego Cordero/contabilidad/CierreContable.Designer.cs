@@ -29,14 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CierreContable));
-            this.tablaPresupuesto = new System.Windows.Forms.DataGridView();
-            this.asdf1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.asdf = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_tablaPresupuesto = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Lbl_Contabilidad = new System.Windows.Forms.Label();
             this.Btn_Cerrar = new System.Windows.Forms.Button();
@@ -50,83 +43,50 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.saldo2 = new System.Windows.Forms.RadioButton();
-            this.saldo1 = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaPresupuesto)).BeginInit();
+            this.asdf1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ab = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.abc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ca = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.saan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.saac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_tablaPresupuesto)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tablaPresupuesto
+            // dgv_tablaPresupuesto
             // 
-            this.tablaPresupuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaPresupuesto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_tablaPresupuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_tablaPresupuesto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.asdf1,
             this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.asdf});
-            this.tablaPresupuesto.Location = new System.Drawing.Point(251, 158);
-            this.tablaPresupuesto.Name = "tablaPresupuesto";
-            this.tablaPresupuesto.Size = new System.Drawing.Size(663, 494);
-            this.tablaPresupuesto.TabIndex = 9;
-            // 
-            // asdf1
-            // 
-            this.asdf1.HeaderText = "No. Cuenta";
-            this.asdf1.Name = "asdf1";
-            this.asdf1.Width = 60;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Nombre";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Saldo Anterior";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 60;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Saldo Actual";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Abono Acumulado";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Abono Actual";
-            this.Column5.Name = "Column5";
-            // 
-            // asdf
-            // 
-            this.asdf.HeaderText = "Cargo Mes";
-            this.asdf.Name = "asdf";
+            this.ab,
+            this.abc,
+            this.ca,
+            this.cac,
+            this.saan,
+            this.saac,
+            this.Column7});
+            this.dgv_tablaPresupuesto.Location = new System.Drawing.Point(35, 196);
+            this.dgv_tablaPresupuesto.Name = "dgv_tablaPresupuesto";
+            this.dgv_tablaPresupuesto.ReadOnly = true;
+            this.dgv_tablaPresupuesto.Size = new System.Drawing.Size(864, 438);
+            this.dgv_tablaPresupuesto.TabIndex = 9;
+            this.dgv_tablaPresupuesto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaPresupuesto_CellContentClick);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(169)))), ((int)(((byte)(206)))));
             this.panel1.Controls.Add(this.Lbl_Contabilidad);
             this.panel1.Controls.Add(this.Btn_Cerrar);
             this.panel1.Controls.Add(this.Btn_Logo);
@@ -175,12 +135,10 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Location = new System.Drawing.Point(6, 158);
+            this.panel2.Location = new System.Drawing.Point(30, 57);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(233, 494);
+            this.panel2.Size = new System.Drawing.Size(881, 109);
             this.panel2.TabIndex = 11;
             // 
             // panel7
@@ -191,7 +149,7 @@
             this.panel7.Controls.Add(this.dateTimePicker1);
             this.panel7.Controls.Add(this.label7);
             this.panel7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel7.Location = new System.Drawing.Point(12, 211);
+            this.panel7.Location = new System.Drawing.Point(37, 8);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(208, 93);
             this.panel7.TabIndex = 14;
@@ -234,15 +192,15 @@
             this.panel6.Controls.Add(this.label5);
             this.panel6.Controls.Add(this.label6);
             this.panel6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel6.Location = new System.Drawing.Point(12, 419);
+            this.panel6.Location = new System.Drawing.Point(629, 8);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(208, 59);
+            this.panel6.Size = new System.Drawing.Size(208, 90);
             this.panel6.TabIndex = 15;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 30);
+            this.label5.Location = new System.Drawing.Point(10, 42);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 13);
             this.label5.TabIndex = 1;
@@ -251,40 +209,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(10, 11);
+            this.label6.Location = new System.Drawing.Point(10, 23);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "BackUP de Cierre";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel5.Location = new System.Drawing.Point(12, 21);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(208, 59);
-            this.panel5.TabIndex = 14;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Aceptada o Denegada";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 11);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Fecha de Autorizacion:";
             // 
             // panel3
             // 
@@ -292,15 +221,15 @@
             this.panel3.Controls.Add(this.radioButton2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel3.Location = new System.Drawing.Point(12, 323);
+            this.panel3.Location = new System.Drawing.Point(330, 8);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(208, 72);
+            this.panel3.Size = new System.Drawing.Size(208, 90);
             this.panel3.TabIndex = 13;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(13, 35);
+            this.radioButton2.Location = new System.Drawing.Point(16, 47);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(104, 17);
             this.radioButton2.TabIndex = 11;
@@ -311,58 +240,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 11);
+            this.label1.Location = new System.Drawing.Point(13, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Opcionalidades:";
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Controls.Add(this.saldo2);
-            this.panel4.Controls.Add(this.saldo1);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(12, 99);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(208, 93);
-            this.panel4.TabIndex = 7;
-            // 
-            // saldo2
-            // 
-            this.saldo2.AutoSize = true;
-            this.saldo2.Location = new System.Drawing.Point(13, 60);
-            this.saldo2.Name = "saldo2";
-            this.saldo2.Size = new System.Drawing.Size(82, 17);
-            this.saldo2.TabIndex = 12;
-            this.saldo2.TabStop = true;
-            this.saldo2.Text = "Cierre Anual";
-            this.saldo2.UseVisualStyleBackColor = true;
-            // 
-            // saldo1
-            // 
-            this.saldo1.AutoSize = true;
-            this.saldo1.Location = new System.Drawing.Point(13, 37);
-            this.saldo1.Name = "saldo1";
-            this.saldo1.Size = new System.Drawing.Size(95, 17);
-            this.saldo1.TabIndex = 11;
-            this.saldo1.TabStop = true;
-            this.saldo1.Text = "Cierre Mensual";
-            this.saldo1.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Seleccionar Tipo:";
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(465, 662);
+            this.button1.Location = new System.Drawing.Point(367, 658);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(201, 30);
             this.button1.TabIndex = 13;
@@ -370,22 +256,79 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // asdf1
+            // 
+            this.asdf1.HeaderText = "No. Cuenta";
+            this.asdf1.Name = "asdf1";
+            this.asdf1.ReadOnly = true;
+            this.asdf1.Width = 60;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Nombre";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // ab
+            // 
+            this.ab.HeaderText = "Abono";
+            this.ab.Name = "ab";
+            this.ab.ReadOnly = true;
+            // 
+            // abc
+            // 
+            this.abc.HeaderText = "Abono Acumulado";
+            this.abc.Name = "abc";
+            this.abc.ReadOnly = true;
+            // 
+            // ca
+            // 
+            this.ca.HeaderText = "Cargo";
+            this.ca.Name = "ca";
+            this.ca.ReadOnly = true;
+            // 
+            // cac
+            // 
+            this.cac.HeaderText = "Cargo Acumulado";
+            this.cac.Name = "cac";
+            this.cac.ReadOnly = true;
+            // 
+            // saan
+            // 
+            this.saan.HeaderText = "Saldo Anterior";
+            this.saan.Name = "saan";
+            this.saan.ReadOnly = true;
+            this.saan.Width = 60;
+            // 
+            // saac
+            // 
+            this.saac.HeaderText = "Saldo Actual";
+            this.saac.Name = "saac";
+            this.saac.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Fecha";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            // 
             // CierreContable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(933, 700);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.tablaPresupuesto);
+            this.Controls.Add(this.dgv_tablaPresupuesto);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CierreContable";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CierreContable";
             this.Load += new System.EventHandler(this.CierreContable_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.tablaPresupuesto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_tablaPresupuesto)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -393,41 +336,23 @@
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView tablaPresupuesto;
+        private System.Windows.Forms.DataGridView dgv_tablaPresupuesto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Lbl_Contabilidad;
         private System.Windows.Forms.Button Btn_Cerrar;
         private System.Windows.Forms.Button Btn_Logo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asdf1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asdf;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton saldo2;
-        private System.Windows.Forms.RadioButton saldo1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label1;
@@ -437,5 +362,14 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asdf1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ab;
+        private System.Windows.Forms.DataGridViewTextBoxColumn abc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ca;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cac;
+        private System.Windows.Forms.DataGridViewTextBoxColumn saan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn saac;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }

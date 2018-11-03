@@ -48,6 +48,8 @@ namespace Contabilidad
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Hide();
+            
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -95,12 +97,14 @@ namespace Contabilidad
 
         private void aquiTrabajaDiegoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
            Presupuestos presupuestos = new Presupuestos();
            presupuestos.Show();
         }
 
         private void diegoTambienTrabajaAcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
             CierreContable cierre = new CierreContable();
             cierre.Show();
         }

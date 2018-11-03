@@ -33,27 +33,30 @@
             this.Lbl_Contabilidad = new System.Windows.Forms.Label();
             this.Btn_Cerrar = new System.Windows.Forms.Button();
             this.Btn_Logo = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlEjercicio = new System.Windows.Forms.Panel();
             this.ejercicioPresupuesto = new System.Windows.Forms.DomainUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.pnlContenido = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnEliminarTodo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.lst_cuentasPresupuesto = new System.Windows.Forms.ListBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.pnlMetodoPrellenado = new System.Windows.Forms.Panel();
+            this.lst_departamento = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.saldo3 = new System.Windows.Forms.RadioButton();
             this.saldo2 = new System.Windows.Forms.RadioButton();
             this.saldo1 = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.cbMetodoPrellenado = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.departamento = new System.Windows.Forms.ListBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.cuentas = new System.Windows.Forms.ListBox();
+            this.pnlSeleccionCuentas = new System.Windows.Forms.Panel();
+            this.btnAgregarTodo = new System.Windows.Forms.Button();
+            this.lst_cuentas = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tablaPresupuesto = new System.Windows.Forms.DataGridView();
+            this.dgv_Presupuesto = new System.Windows.Forms.DataGridView();
             this.asdf1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -70,31 +73,32 @@
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.headerDescripcion = new System.Windows.Forms.Panel();
             this.txtDepartamento = new System.Windows.Forms.Label();
-            this.txtMetodoPrellenado = new System.Windows.Forms.Label();
             this.txtPorcentajeIncremento = new System.Windows.Forms.Label();
-            this.txtSeleccionarCuentas = new System.Windows.Forms.Label();
             this.txtTomarSaldo = new System.Windows.Forms.Label();
             this.txtEjercicioPresupuesto = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.rdb_opcionesdePrellenado = new System.Windows.Forms.RadioButton();
+            this.pnl_opcionesPrellenado = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaPresupuesto)).BeginInit();
+            this.pnlEjercicio.SuspendLayout();
+            this.pnlContenido.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.pnlMetodoPrellenado.SuspendLayout();
+            this.pnlSeleccionCuentas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Presupuesto)).BeginInit();
             this.headerDescripcion.SuspendLayout();
+            this.pnl_opcionesPrellenado.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(169)))), ((int)(((byte)(206)))));
             this.panel1.Controls.Add(this.Lbl_Contabilidad);
             this.panel1.Controls.Add(this.Btn_Cerrar);
             this.panel1.Controls.Add(this.Btn_Logo);
@@ -102,6 +106,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(933, 42);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Lbl_Contabilidad
             // 
@@ -138,22 +143,23 @@
             this.Btn_Logo.TabIndex = 9;
             this.Btn_Logo.UseVisualStyleBackColor = false;
             // 
-            // panel2
+            // pnlEjercicio
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Controls.Add(this.ejercicioPresupuesto);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(37, 14);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(169, 74);
-            this.panel2.TabIndex = 5;
+            this.pnlEjercicio.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pnlEjercicio.Controls.Add(this.ejercicioPresupuesto);
+            this.pnlEjercicio.Controls.Add(this.label1);
+            this.pnlEjercicio.Location = new System.Drawing.Point(57, 14);
+            this.pnlEjercicio.Name = "pnlEjercicio";
+            this.pnlEjercicio.Size = new System.Drawing.Size(209, 74);
+            this.pnlEjercicio.TabIndex = 5;
             // 
             // ejercicioPresupuesto
             // 
-            this.ejercicioPresupuesto.Location = new System.Drawing.Point(25, 37);
+            this.ejercicioPresupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ejercicioPresupuesto.Location = new System.Drawing.Point(26, 37);
             this.ejercicioPresupuesto.Name = "ejercicioPresupuesto";
             this.ejercicioPresupuesto.ReadOnly = true;
-            this.ejercicioPresupuesto.Size = new System.Drawing.Size(120, 20);
+            this.ejercicioPresupuesto.Size = new System.Drawing.Size(157, 21);
             this.ejercicioPresupuesto.TabIndex = 1;
             this.ejercicioPresupuesto.Text = "2018";
             this.ejercicioPresupuesto.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
@@ -161,74 +167,158 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 10);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(4, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 13);
+            this.label1.Size = new System.Drawing.Size(201, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ejercicio del Presupuesto";
             // 
-            // panel3
+            // pnlContenido
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel2);
-            this.panel3.Location = new System.Drawing.Point(210, 188);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(518, 429);
-            this.panel3.TabIndex = 6;
+            this.pnlContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.pnlContenido.Controls.Add(this.panel7);
+            this.pnlContenido.Controls.Add(this.btnAceptar);
+            this.pnlContenido.Controls.Add(this.pnlMetodoPrellenado);
+            this.pnlContenido.Controls.Add(this.pnlSeleccionCuentas);
+            this.pnlContenido.Controls.Add(this.pnlEjercicio);
+            this.pnlContenido.Location = new System.Drawing.Point(166, 161);
+            this.pnlContenido.Name = "pnlContenido";
+            this.pnlContenido.Size = new System.Drawing.Size(618, 473);
+            this.pnlContenido.TabIndex = 6;
             // 
-            // button1
+            // panel7
             // 
-            this.button1.Location = new System.Drawing.Point(224, 387);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.btnEliminarTodo);
+            this.panel7.Controls.Add(this.btnEliminar);
+            this.panel7.Controls.Add(this.lst_cuentasPresupuesto);
+            this.panel7.Location = new System.Drawing.Point(57, 268);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(209, 149);
+            this.panel7.TabIndex = 10;
             // 
-            // panel6
+            // label13
             // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel6.Controls.Add(this.textBox1);
-            this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.saldo3);
-            this.panel6.Controls.Add(this.saldo2);
-            this.panel6.Controls.Add(this.saldo1);
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.cbMetodoPrellenado);
-            this.panel6.Controls.Add(this.label4);
-            this.panel6.Location = new System.Drawing.Point(247, 14);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(243, 343);
-            this.panel6.TabIndex = 7;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(5, 7);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(195, 18);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Cuentas A Presupuestar:";
+            // 
+            // btnEliminarTodo
+            // 
+            this.btnEliminarTodo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.btnEliminarTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarTodo.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarTodo.Location = new System.Drawing.Point(85, 119);
+            this.btnEliminarTodo.Name = "btnEliminarTodo";
+            this.btnEliminarTodo.Size = new System.Drawing.Size(121, 27);
+            this.btnEliminarTodo.TabIndex = 4;
+            this.btnEliminarTodo.Text = "Eliminar Todo";
+            this.btnEliminarTodo.UseVisualStyleBackColor = false;
+            this.btnEliminarTodo.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminar.Location = new System.Drawing.Point(4, 119);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 27);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // lst_cuentasPresupuesto
+            // 
+            this.lst_cuentasPresupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_cuentasPresupuesto.FormattingEnabled = true;
+            this.lst_cuentasPresupuesto.ItemHeight = 15;
+            this.lst_cuentasPresupuesto.Location = new System.Drawing.Point(3, 31);
+            this.lst_cuentasPresupuesto.Name = "lst_cuentasPresupuesto";
+            this.lst_cuentasPresupuesto.Size = new System.Drawing.Size(203, 79);
+            this.lst_cuentasPresupuesto.TabIndex = 2;
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.Black;
+            this.btnAceptar.Location = new System.Drawing.Point(261, 429);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(107, 33);
+            this.btnAceptar.TabIndex = 8;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pnlMetodoPrellenado
+            // 
+            this.pnlMetodoPrellenado.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pnlMetodoPrellenado.Controls.Add(this.pnl_opcionesPrellenado);
+            this.pnlMetodoPrellenado.Controls.Add(this.rdb_opcionesdePrellenado);
+            this.pnlMetodoPrellenado.Controls.Add(this.lst_departamento);
+            this.pnlMetodoPrellenado.Controls.Add(this.label3);
+            this.pnlMetodoPrellenado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlMetodoPrellenado.Location = new System.Drawing.Point(353, 14);
+            this.pnlMetodoPrellenado.Name = "pnlMetodoPrellenado";
+            this.pnlMetodoPrellenado.Size = new System.Drawing.Size(218, 403);
+            this.pnlMetodoPrellenado.TabIndex = 7;
+            this.pnlMetodoPrellenado.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMetodoPrellenado_Paint);
+            // 
+            // lst_departamento
+            // 
+            this.lst_departamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_departamento.FormattingEnabled = true;
+            this.lst_departamento.ItemHeight = 15;
+            this.lst_departamento.Location = new System.Drawing.Point(8, 38);
+            this.lst_departamento.Name = "lst_departamento";
+            this.lst_departamento.Size = new System.Drawing.Size(202, 79);
+            this.lst_departamento.TabIndex = 2;
+            this.lst_departamento.SelectedIndexChanged += new System.EventHandler(this.departamento_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(213, 18);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Seleccionar Departamento:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 301);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(9, 158);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(129, 20);
+            this.textBox1.Size = new System.Drawing.Size(198, 21);
             this.textBox1.TabIndex = 12;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(10, 275);
+            this.label6.Location = new System.Drawing.Point(4, 128);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(132, 13);
+            this.label6.Size = new System.Drawing.Size(206, 18);
             this.label6.TabIndex = 11;
             this.label6.Text = "Porcentaje de Incremento:";
             // 
             // saldo3
             // 
             this.saldo3.AutoSize = true;
-            this.saldo3.Location = new System.Drawing.Point(13, 218);
+            this.saldo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saldo3.Location = new System.Drawing.Point(23, 89);
             this.saldo3.Name = "saldo3";
-            this.saldo3.Size = new System.Drawing.Size(61, 17);
+            this.saldo3.Size = new System.Drawing.Size(66, 19);
             this.saldo3.TabIndex = 10;
             this.saldo3.TabStop = true;
             this.saldo3.Text = "Abonos";
@@ -237,9 +327,10 @@
             // saldo2
             // 
             this.saldo2.AutoSize = true;
-            this.saldo2.Location = new System.Drawing.Point(13, 195);
+            this.saldo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saldo2.Location = new System.Drawing.Point(23, 66);
             this.saldo2.Name = "saldo2";
-            this.saldo2.Size = new System.Drawing.Size(58, 17);
+            this.saldo2.Size = new System.Drawing.Size(64, 19);
             this.saldo2.TabIndex = 9;
             this.saldo2.TabStop = true;
             this.saldo2.Text = "Cargos";
@@ -248,9 +339,10 @@
             // saldo1
             // 
             this.saldo1.AutoSize = true;
-            this.saldo1.Location = new System.Drawing.Point(13, 172);
+            this.saldo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saldo1.Location = new System.Drawing.Point(23, 43);
             this.saldo1.Name = "saldo1";
-            this.saldo1.Size = new System.Drawing.Size(103, 17);
+            this.saldo1.Size = new System.Drawing.Size(115, 19);
             this.saldo1.TabIndex = 8;
             this.saldo1.TabStop = true;
             this.saldo1.Text = "Cargos - Abonos";
@@ -259,90 +351,65 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 151);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(4, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 13);
+            this.label5.Size = new System.Drawing.Size(156, 18);
             this.label5.TabIndex = 7;
             this.label5.Text = "Tomar como saldo:";
             // 
-            // cbMetodoPrellenado
+            // pnlSeleccionCuentas
             // 
-            this.cbMetodoPrellenado.FormattingEnabled = true;
-            this.cbMetodoPrellenado.Location = new System.Drawing.Point(29, 36);
-            this.cbMetodoPrellenado.Name = "cbMetodoPrellenado";
-            this.cbMetodoPrellenado.Size = new System.Drawing.Size(190, 21);
-            this.cbMetodoPrellenado.TabIndex = 1;
+            this.pnlSeleccionCuentas.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pnlSeleccionCuentas.Controls.Add(this.btnAgregarTodo);
+            this.pnlSeleccionCuentas.Controls.Add(this.lst_cuentas);
+            this.pnlSeleccionCuentas.Controls.Add(this.label2);
+            this.pnlSeleccionCuentas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pnlSeleccionCuentas.Location = new System.Drawing.Point(57, 101);
+            this.pnlSeleccionCuentas.Name = "pnlSeleccionCuentas";
+            this.pnlSeleccionCuentas.Size = new System.Drawing.Size(209, 155);
+            this.pnlSeleccionCuentas.TabIndex = 6;
             // 
-            // label4
+            // btnAgregarTodo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Metodo de Prellenado";
+            this.btnAgregarTodo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.btnAgregarTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarTodo.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregarTodo.Location = new System.Drawing.Point(49, 122);
+            this.btnAgregarTodo.Name = "btnAgregarTodo";
+            this.btnAgregarTodo.Size = new System.Drawing.Size(118, 27);
+            this.btnAgregarTodo.TabIndex = 4;
+            this.btnAgregarTodo.Text = "Agregar Todo";
+            this.btnAgregarTodo.UseVisualStyleBackColor = false;
+            this.btnAgregarTodo.Click += new System.EventHandler(this.button5_Click);
             // 
-            // panel5
+            // lst_cuentas
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel5.Controls.Add(this.departamento);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Location = new System.Drawing.Point(37, 229);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(169, 128);
-            this.panel5.TabIndex = 6;
-            // 
-            // departamento
-            // 
-            this.departamento.FormattingEnabled = true;
-            this.departamento.Location = new System.Drawing.Point(9, 33);
-            this.departamento.Name = "departamento";
-            this.departamento.Size = new System.Drawing.Size(148, 82);
-            this.departamento.TabIndex = 2;
-            this.departamento.SelectedIndexChanged += new System.EventHandler(this.departamento_SelectedIndexChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Departamento:";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Controls.Add(this.cuentas);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(37, 94);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(169, 128);
-            this.panel4.TabIndex = 6;
-            // 
-            // cuentas
-            // 
-            this.cuentas.FormattingEnabled = true;
-            this.cuentas.Location = new System.Drawing.Point(10, 34);
-            this.cuentas.Name = "cuentas";
-            this.cuentas.Size = new System.Drawing.Size(148, 82);
-            this.cuentas.TabIndex = 1;
+            this.lst_cuentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_cuentas.FormattingEnabled = true;
+            this.lst_cuentas.ItemHeight = 15;
+            this.lst_cuentas.Location = new System.Drawing.Point(4, 34);
+            this.lst_cuentas.Name = "lst_cuentas";
+            this.lst_cuentas.Size = new System.Drawing.Size(202, 79);
+            this.lst_cuentas.TabIndex = 1;
+            this.lst_cuentas.SelectedIndexChanged += new System.EventHandler(this.cuentas_SelectedIndexChanged);
+            this.lst_cuentas.DoubleClick += new System.EventHandler(this.cuentas_DoubleClick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 11);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(8, 8);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 13);
+            this.label2.Size = new System.Drawing.Size(169, 18);
             this.label2.TabIndex = 0;
             this.label2.Text = "Seleccionar Cuentas:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // tablaPresupuesto
+            // dgv_Presupuesto
             // 
-            this.tablaPresupuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaPresupuesto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_Presupuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Presupuesto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.asdf1,
             this.Column1,
             this.Column2,
@@ -357,11 +424,12 @@
             this.Column11,
             this.Column12,
             this.Column13});
-            this.tablaPresupuesto.Location = new System.Drawing.Point(6, 273);
-            this.tablaPresupuesto.Name = "tablaPresupuesto";
-            this.tablaPresupuesto.Size = new System.Drawing.Size(921, 381);
-            this.tablaPresupuesto.TabIndex = 7;
-            this.tablaPresupuesto.Visible = false;
+            this.dgv_Presupuesto.Location = new System.Drawing.Point(6, 243);
+            this.dgv_Presupuesto.Name = "dgv_Presupuesto";
+            this.dgv_Presupuesto.Size = new System.Drawing.Size(921, 381);
+            this.dgv_Presupuesto.TabIndex = 7;
+            this.dgv_Presupuesto.Visible = false;
+            this.dgv_Presupuesto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaPresupuesto_CellContentClick);
             // 
             // asdf1
             // 
@@ -448,23 +516,20 @@
             // 
             // headerDescripcion
             // 
-            this.headerDescripcion.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.headerDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.headerDescripcion.Controls.Add(this.label4);
             this.headerDescripcion.Controls.Add(this.txtDepartamento);
-            this.headerDescripcion.Controls.Add(this.txtMetodoPrellenado);
             this.headerDescripcion.Controls.Add(this.txtPorcentajeIncremento);
-            this.headerDescripcion.Controls.Add(this.txtSeleccionarCuentas);
             this.headerDescripcion.Controls.Add(this.txtTomarSaldo);
             this.headerDescripcion.Controls.Add(this.txtEjercicioPresupuesto);
             this.headerDescripcion.Controls.Add(this.button2);
             this.headerDescripcion.Controls.Add(this.label7);
-            this.headerDescripcion.Controls.Add(this.label8);
             this.headerDescripcion.Controls.Add(this.label9);
             this.headerDescripcion.Controls.Add(this.label10);
             this.headerDescripcion.Controls.Add(this.label11);
-            this.headerDescripcion.Controls.Add(this.label12);
-            this.headerDescripcion.Location = new System.Drawing.Point(6, 59);
+            this.headerDescripcion.Location = new System.Drawing.Point(12, 55);
             this.headerDescripcion.Name = "headerDescripcion";
-            this.headerDescripcion.Size = new System.Drawing.Size(921, 86);
+            this.headerDescripcion.Size = new System.Drawing.Size(909, 95);
             this.headerDescripcion.TabIndex = 8;
             this.headerDescripcion.Visible = false;
             this.headerDescripcion.Paint += new System.Windows.Forms.PaintEventHandler(this.headerDescripcion_Paint);
@@ -472,130 +537,159 @@
             // txtDepartamento
             // 
             this.txtDepartamento.AutoSize = true;
-            this.txtDepartamento.Location = new System.Drawing.Point(573, 50);
+            this.txtDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDepartamento.Location = new System.Drawing.Point(163, 66);
             this.txtDepartamento.Name = "txtDepartamento";
-            this.txtDepartamento.Size = new System.Drawing.Size(41, 13);
+            this.txtDepartamento.Size = new System.Drawing.Size(11, 16);
             this.txtDepartamento.TabIndex = 24;
-            this.txtDepartamento.Text = "label18";
-            // 
-            // txtMetodoPrellenado
-            // 
-            this.txtMetodoPrellenado.AutoSize = true;
-            this.txtMetodoPrellenado.Location = new System.Drawing.Point(613, 18);
-            this.txtMetodoPrellenado.Name = "txtMetodoPrellenado";
-            this.txtMetodoPrellenado.Size = new System.Drawing.Size(41, 13);
-            this.txtMetodoPrellenado.TabIndex = 23;
-            this.txtMetodoPrellenado.Text = "label17";
+            this.txtDepartamento.Text = " ";
             // 
             // txtPorcentajeIncremento
             // 
             this.txtPorcentajeIncremento.AutoSize = true;
-            this.txtPorcentajeIncremento.Location = new System.Drawing.Point(398, 50);
+            this.txtPorcentajeIncremento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPorcentajeIncremento.Location = new System.Drawing.Point(574, 66);
             this.txtPorcentajeIncremento.Name = "txtPorcentajeIncremento";
-            this.txtPorcentajeIncremento.Size = new System.Drawing.Size(41, 13);
+            this.txtPorcentajeIncremento.Size = new System.Drawing.Size(11, 16);
             this.txtPorcentajeIncremento.TabIndex = 22;
-            this.txtPorcentajeIncremento.Text = "label16";
-            // 
-            // txtSeleccionarCuentas
-            // 
-            this.txtSeleccionarCuentas.AutoSize = true;
-            this.txtSeleccionarCuentas.Location = new System.Drawing.Point(374, 18);
-            this.txtSeleccionarCuentas.Name = "txtSeleccionarCuentas";
-            this.txtSeleccionarCuentas.Size = new System.Drawing.Size(41, 13);
-            this.txtSeleccionarCuentas.TabIndex = 21;
-            this.txtSeleccionarCuentas.Text = "label15";
+            this.txtPorcentajeIncremento.Text = " ";
             // 
             // txtTomarSaldo
             // 
             this.txtTomarSaldo.AutoSize = true;
-            this.txtTomarSaldo.Location = new System.Drawing.Point(120, 50);
+            this.txtTomarSaldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTomarSaldo.Location = new System.Drawing.Point(526, 39);
             this.txtTomarSaldo.Name = "txtTomarSaldo";
-            this.txtTomarSaldo.Size = new System.Drawing.Size(41, 13);
+            this.txtTomarSaldo.Size = new System.Drawing.Size(11, 16);
             this.txtTomarSaldo.TabIndex = 20;
-            this.txtTomarSaldo.Text = "label14";
+            this.txtTomarSaldo.Text = " ";
             // 
             // txtEjercicioPresupuesto
             // 
             this.txtEjercicioPresupuesto.AutoSize = true;
-            this.txtEjercicioPresupuesto.Location = new System.Drawing.Point(149, 18);
+            this.txtEjercicioPresupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEjercicioPresupuesto.Location = new System.Drawing.Point(249, 39);
             this.txtEjercicioPresupuesto.Name = "txtEjercicioPresupuesto";
-            this.txtEjercicioPresupuesto.Size = new System.Drawing.Size(41, 13);
+            this.txtEjercicioPresupuesto.Size = new System.Drawing.Size(11, 16);
             this.txtEjercicioPresupuesto.TabIndex = 19;
-            this.txtEjercicioPresupuesto.Text = "label13";
+            this.txtEjercicioPresupuesto.Text = " ";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(798, 30);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(789, 30);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 33);
             this.button2.TabIndex = 18;
             this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 18);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(48, 37);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 13);
+            this.label7.Size = new System.Drawing.Size(206, 18);
             this.label7.TabIndex = 12;
             this.label7.Text = "Ejercicio del Presupuesto:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(260, 18);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Seleccionar Cuentas:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(490, 50);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(48, 64);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 13);
+            this.label9.Size = new System.Drawing.Size(119, 18);
             this.label9.TabIndex = 14;
             this.label9.Text = "Departamento:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label10.Location = new System.Drawing.Point(260, 50);
+            this.label10.Location = new System.Drawing.Point(373, 64);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(132, 13);
+            this.label10.Size = new System.Drawing.Size(206, 18);
             this.label10.TabIndex = 17;
             this.label10.Text = "Porcentaje de Incremento:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(17, 50);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(373, 37);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(97, 13);
+            this.label11.Size = new System.Drawing.Size(156, 18);
             this.label11.TabIndex = 16;
             this.label11.Text = "Tomar como saldo:";
             // 
-            // label12
+            // rdb_opcionesdePrellenado
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(490, 18);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(117, 13);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Metodo de Prellenado: ";
+            this.rdb_opcionesdePrellenado.AutoSize = true;
+            this.rdb_opcionesdePrellenado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_opcionesdePrellenado.Location = new System.Drawing.Point(9, 150);
+            this.rdb_opcionesdePrellenado.Name = "rdb_opcionesdePrellenado";
+            this.rdb_opcionesdePrellenado.Size = new System.Drawing.Size(160, 19);
+            this.rdb_opcionesdePrellenado.TabIndex = 13;
+            this.rdb_opcionesdePrellenado.TabStop = true;
+            this.rdb_opcionesdePrellenado.Text = "Opciones de Prellenado:";
+            this.rdb_opcionesdePrellenado.UseVisualStyleBackColor = true;
+            this.rdb_opcionesdePrellenado.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rdb_opcionesdePrellenado.Click += new System.EventHandler(this.rdb_opcionesdePrellenado_Click);
+            // 
+            // pnl_opcionesPrellenado
+            // 
+            this.pnl_opcionesPrellenado.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.pnl_opcionesPrellenado.Controls.Add(this.label5);
+            this.pnl_opcionesPrellenado.Controls.Add(this.saldo1);
+            this.pnl_opcionesPrellenado.Controls.Add(this.saldo2);
+            this.pnl_opcionesPrellenado.Controls.Add(this.textBox1);
+            this.pnl_opcionesPrellenado.Controls.Add(this.saldo3);
+            this.pnl_opcionesPrellenado.Controls.Add(this.label6);
+            this.pnl_opcionesPrellenado.Enabled = false;
+            this.pnl_opcionesPrellenado.Location = new System.Drawing.Point(3, 180);
+            this.pnl_opcionesPrellenado.Name = "pnl_opcionesPrellenado";
+            this.pnl_opcionesPrellenado.Size = new System.Drawing.Size(211, 211);
+            this.pnl_opcionesPrellenado.TabIndex = 11;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(381, 651);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(179, 33);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Guardar Presupuesto";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(45, 4);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(277, 24);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Informacion del Presupuesto";
             // 
             // Presupuestos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(933, 700);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.headerDescripcion);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.tablaPresupuesto);
+            this.Controls.Add(this.pnlContenido);
+            this.Controls.Add(this.dgv_Presupuesto);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Presupuestos";
@@ -604,18 +698,20 @@
             this.Load += new System.EventHandler(this.Presupuestos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaPresupuesto)).EndInit();
+            this.pnlEjercicio.ResumeLayout(false);
+            this.pnlEjercicio.PerformLayout();
+            this.pnlContenido.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.pnlMetodoPrellenado.ResumeLayout(false);
+            this.pnlMetodoPrellenado.PerformLayout();
+            this.pnlSeleccionCuentas.ResumeLayout(false);
+            this.pnlSeleccionCuentas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Presupuesto)).EndInit();
             this.headerDescripcion.ResumeLayout(false);
             this.headerDescripcion.PerformLayout();
+            this.pnl_opcionesPrellenado.ResumeLayout(false);
+            this.pnl_opcionesPrellenado.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -625,26 +721,19 @@
         private System.Windows.Forms.Label Lbl_Contabilidad;
         private System.Windows.Forms.Button Btn_Cerrar;
         private System.Windows.Forms.Button Btn_Logo;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlEjercicio;
         private System.Windows.Forms.DomainUpDown ejercicioPresupuesto;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel pnlContenido;
+        private System.Windows.Forms.Panel pnlSeleccionCuentas;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox cuentas;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.ListBox departamento;
+        private System.Windows.Forms.ListBox lst_cuentas;
+        private System.Windows.Forms.ListBox lst_departamento;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel pnlMetodoPrellenado;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton saldo3;
-        private System.Windows.Forms.RadioButton saldo2;
-        private System.Windows.Forms.RadioButton saldo1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cbMetodoPrellenado;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView tablaPresupuesto;
+        private System.Windows.Forms.DataGridView dgv_Presupuesto;
         private System.Windows.Forms.DataGridViewTextBoxColumn asdf1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -659,20 +748,30 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Panel headerDescripcion;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label txtDepartamento;
-        private System.Windows.Forms.Label txtMetodoPrellenado;
         private System.Windows.Forms.Label txtPorcentajeIncremento;
-        private System.Windows.Forms.Label txtSeleccionarCuentas;
         private System.Windows.Forms.Label txtTomarSaldo;
         private System.Windows.Forms.Label txtEjercicioPresupuesto;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button btnEliminarTodo;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.ListBox lst_cuentasPresupuesto;
+        private System.Windows.Forms.Button btnAgregarTodo;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RadioButton saldo3;
+        private System.Windows.Forms.RadioButton saldo2;
+        private System.Windows.Forms.RadioButton saldo1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel pnl_opcionesPrellenado;
+        private System.Windows.Forms.RadioButton rdb_opcionesdePrellenado;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label4;
     }
 }

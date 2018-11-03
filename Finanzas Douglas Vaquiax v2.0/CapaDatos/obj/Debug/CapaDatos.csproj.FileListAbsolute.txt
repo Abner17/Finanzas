@@ -1,0 +1,5 @@
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\versiones proyecto final\Finanzas Douglas Vaquiax v2.0\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\versiones proyecto final\Finanzas Douglas Vaquiax v2.0\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\versiones proyecto final\Finanzas Douglas Vaquiax v2.0\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\versiones proyecto final\Finanzas Douglas Vaquiax v2.0\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Universidad UMG-GALILEO\8vo semestre\Analisis de sistemas 2\versiones proyecto final\Finanzas Douglas Vaquiax v2.0\CapaDatos\obj\Debug\CapaDatos.pdb

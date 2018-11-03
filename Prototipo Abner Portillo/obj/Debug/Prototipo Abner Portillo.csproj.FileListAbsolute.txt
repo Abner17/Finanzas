@@ -1,0 +1,47 @@
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\Prototipo Abner Portillo.exe
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\Prototipo Abner Portillo.pdb
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.csprojAssemblyReference.cache
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Form1.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.logo.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Properties.Resources.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.csproj.GenerateResource.cache
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.csproj.CoreCompileInputs.cache
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.exe
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.pdb
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_ListadoPolizasLocales.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_EncabezadoPolizasLocales.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\Prototipo Abner Portillo.exe.config
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo Abner Portillo.csproj.CopyComplete
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_EncabezadoEstadoResultados.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_ListaEstadoResultados.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_EncabezadoBalanceGeneral.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_ListadoBalanceGeneral.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\MySql.Data.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\obj\Debug\Prototipo_Abner_Portillo.Frm_DetallePolizasLocales.resources
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaDiseno.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaLogica.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\DLL- Reporteador.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\ConsultasInteligentes.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaDatos.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.Shared.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\FlashControlV71.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\ShockwaveFlashObjects.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\stdole.dll
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaDiseno.pdb
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaLogica.pdb
+D:\UMG\Octavo Semestre\Analsis de Sistemas 2\Prototipo Abner Portillo\Prototipo Abner Portillo\bin\Debug\CapaDatos.pdb

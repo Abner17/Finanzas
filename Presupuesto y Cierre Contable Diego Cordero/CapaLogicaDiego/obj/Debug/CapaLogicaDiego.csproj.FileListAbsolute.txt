@@ -1,0 +1,9 @@
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\bin\Debug\CapaLogicaDiego.dll
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\bin\Debug\CapaLogicaDiego.pdb
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\bin\Debug\CapaDatosDiego.dll
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\bin\Debug\CapaDatosDiego.pdb
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\obj\Debug\CapaLogicaDiego.csprojAssemblyReference.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\obj\Debug\CapaLogicaDiego.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\obj\Debug\CapaLogicaDiego.csproj.CopyComplete
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\obj\Debug\CapaLogicaDiego.dll
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaLogicaDiego\obj\Debug\CapaLogicaDiego.pdb

@@ -1,0 +1,13 @@
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\Contabilidad.CierreContable.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\Contabilidad.Form1.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.Form2.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\Contabilidad.Logo.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\Contabilidad.Presupuestos.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.principal1.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.principal2.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.Properties.Resources.resources
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\CapaDiseñoDiego.csproj.GenerateResource.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\CapaDiseñoDiego.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.exe
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\prueba444.pdb
+C:\Users\diego\Documents\ejemplo abner\prueba444\prueba444\obj\Debug\CapaDiseñoDiego.csprojAssemblyReference.cache

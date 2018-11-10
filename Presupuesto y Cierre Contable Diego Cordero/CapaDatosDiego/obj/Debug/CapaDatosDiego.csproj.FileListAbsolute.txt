@@ -1,0 +1,6 @@
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\bin\Debug\CapaDatosDiego.dll
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\bin\Debug\CapaDatosDiego.pdb
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\obj\Debug\CapaDatosDiego.csprojAssemblyReference.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\obj\Debug\CapaDatosDiego.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\obj\Debug\CapaDatosDiego.dll
+C:\Users\diego\Documents\ejemplo abner\prueba444\CapaDatosDiego\obj\Debug\CapaDatosDiego.pdb

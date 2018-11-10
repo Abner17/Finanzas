@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Acá irá el titulo, ya definido para todos-->
+    <title>COLCHONERIA LAS COBIJAS</title>
+    <!--Una cabecera, que contiene el titulo, PUEDE SER el MODULO O area, etc por ejemplo: 
+            "Logistica", "Producción", etc.-->
+
+</head>
+<body style="background:rgb(255, 255, 255); color:rgb(9, 49, 49)">
+  <!--EL SIGUIENTE ESPACIO, ES PARA SUBTITULOS-->
+  <h3 style="color:blue">Cierre Contable</h3>
+  <h3 style="color:black">Funcionamiento </h3>
+  <!--Un pequeño texto, que le brinde la ayuda al usuario-->
+    <P>-Cierre contable permite poner los saldo actuales, abonos y cargos en 0 y acumularlos en la cuenta de saldos acumulados,     
+<P>abonos acumulados y cargos acumulados respectivamente. 
+<P>
+<P>- Adicionalmente se permite establecer un intervalo de fecha     
+    para realizar el cierre contable, en la tabla se mostraran
+los datos 
+<P>actuales y luego de reazlizar el cierre mostrara     
+  los nuevos resultados en 0.
+<P>
+<P>- Generar Reporte crea un archivo .pdf que permite ver el cambio realizado del cierre contable.
+<P>ATENCION:  Este cambio es irreversible para el sistema, se genera un backup de las cuentas con el nombre TBL_BACKUP_CIERRECONTABLE
+<P>
+<P><img src="img/2018-11-08 (4).png" width="931" height="700">
+
+  <h3 style="color:black">Ayuda Especifica -Fecha de intervalo:</h3>
+  <p style="color:black">Fecha de intervalo permite seleccionar cuentas que sean encontradas dependiendo del rango seleccionado</p>
+  <h3 style="color:black"><img src="img/fecha.jpg" width="211" height="97"></h3>
+  <h3 style="color:black">Ayuda Especifica -Botones:</h3>
+  <p style="color:black">Mostrar cuenta, actualiza la tabla con las cuentas que se encuentren entre el intervalo de fechas</p>
+  <p style="color:black"><img src="img/mostrarcuentas.jpg" width="146" height="47"></p>
+  <p style="color:black">Realizar Cierre Contable, permite hacer el cambio o actualizacion en la base de datos y crear el back up del sistema</p>
+  <p style="color:black"><img src="img/realizarcierre.jpg" alt="" width="258" height="56"></p>
+  <h3 style="color:black">Ayuda Especifica -Descripcion de la tabla:</h3>
+<P>No. Cuenta: Muestra el codigo de la cuenta registrada en la base de datos
+<P><img src="img/cuenta.jpg" width="104" height="125">
+<P>Nombre: Muestra el nombre de la cuenta registrada en al base de datos
+<P><img src="img/nombre.jpg" width="104" height="125">
+<P>Abono, muestra la sumatoria de bonos registrados hasta la fecha.
+<P><img src="img/abono.jpg" alt="" width="104" height="125">
+<P>Abono Acumulado, muestra el total de los abonos registrados en la base de datos.
+<P><img src="img/abonoAcumulado.jpg" alt="" width="104" height="125">
+<P>Cargo, muestra la sumatoria de cargos registrados hasta la fecha.
+<P><img src="img/cargo.jpg" width="104" height="125">
+<P>Cargo Acumulado, muestra el total de los cargos registrados en la base de datos.
+
+<P><img src="img/cargoAcumulado.jpg" width="104" height="125">
+<P>Saldo Anterior, muestra el ultimo saldo registrado en la base de datos
+<P><img src="img/saldo Anterior.jpg" width="104" height="125">
+<P>Saldo Actual, muestra la sumatoria del saldo hasta la fecha registrado en la base de datos    
+<P><img src="img/saldoActual.jpg" width="104" height="125">
+<P>Fecha, muestra la fecha de actualizacion de los saldos de la cuenta
+<P><img src="img/fechaGrid.jpg" width="104" height="125">
+<P>
+<P>
+<P>
+<P>
+<P>
+
+</body>
+</html>
